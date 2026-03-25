@@ -2,7 +2,7 @@
 import cv2
 
 #Read the Image
-image = cv2.imread("../Resources/Images/image1.jpg")
+image = cv2.imread("Section1/Resources/Images/image1.jpg")
 
 print(image.shape)
 

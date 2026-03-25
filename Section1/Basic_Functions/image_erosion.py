@@ -2,14 +2,14 @@
 import cv2
 import numpy as np
 #Read the Input Image
-image = cv2.imread("../Resources/Images/image5.jpg")
+image = cv2.imread("Section1/Resources/Images/image5.jpg")
 
 
 #Edge Detection using the Canny Edge Detector
 imageCanny = cv2.Canny(image, 100, 100)
 
 #Dialation
-kernel = np.ones((5,5), np.uint8)
+kernel = np.ones((3,3), np.uint8)
 imageDialation = cv2.dilate(imageCanny, kernel, iterations=1)
 
 #Erosion

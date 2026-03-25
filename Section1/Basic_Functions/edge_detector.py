@@ -2,7 +2,7 @@
 import cv2
 
 #Read the Input Image
-image = cv2.imread("../Resources/Images/image5.jpg")
+image = cv2.imread("Section1/Resources/Images/image5.jpg")
 
 #Detect Edges in the Image using Canny Edge Detector
 imageCanny = cv2.Canny(image, 100, 100)

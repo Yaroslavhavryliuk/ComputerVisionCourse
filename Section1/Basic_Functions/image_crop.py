@@ -2,12 +2,12 @@
 import cv2
 
 #Read the Input Image
-image = cv2.imread("../Resources/Images/image1.jpg")
+image = cv2.imread("Section1/Resources/Images/image1.jpg")
 
 print(image.shape)
 
 #Crop Image
-imageCropped = image[332:664, 500:1000]
+imageCropped = image[332:500, 500:1000]
 
 #Display the Image
 cv2.imshow("Image", image)
